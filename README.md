@@ -143,6 +143,3 @@ journalctl --user -u folder-janitor.service -n 200 --no-pager
 * Tracks `first_seen` per file in `~/.local/state/folder-janitor/state.json`.
 * Deletes files once `first_seen` age exceeds `days`.
 * Removes directories that become truly empty (excluding exception trees).
-
-```
-```
